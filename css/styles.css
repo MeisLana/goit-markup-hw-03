@@ -154,10 +154,11 @@ letter-spacing: 0.02em;
 
 /* Hero section */
 .hero-container {
-    padding: 188px 0;
+    /* padding: 188px 0; */
 }
 .hero {
     background: #2E2F42;
+    padding: 188px 0;
 }
 .subject {
     color: #FFFFFF;
@@ -171,11 +172,15 @@ max-width: 496px;
 margin-left: auto;
 margin-right: auto;
 }
-.btn {
+/* .btn {
     display: flex;
     justify-content: space-evenly;
-}
+} */
 .button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
     padding: 16px 32px;
     border-radius: 4px;
     background-color: #4D5AE5;
@@ -224,6 +229,7 @@ letter-spacing: 0.04em;
 }
 .team-item {
     border-radius: 0px 0px 4px 4px;
+    
     background-color: #FFFFFF;
 }
 .team-pic {
@@ -262,6 +268,7 @@ flex-direction: column;
     display: flex;
     padding: 32px 16px;
 border: 1px solid #e7e9fc;
+border-top: none;
 flex-direction: column;
 /* justify-content: center;
 align-items: flex-start; */
